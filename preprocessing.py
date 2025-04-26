@@ -1,5 +1,3 @@
-# preprocessing.py
-
 import nltk
 import numpy as np
 from nltk.stem import WordNetLemmatizer
