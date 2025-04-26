@@ -1,5 +1,3 @@
-# chatbot_engine.py
-
 import random
 import json
 import numpy as np
