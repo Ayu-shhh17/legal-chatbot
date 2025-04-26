@@ -1,15 +1,28 @@
-# Legal Chatbot
+# 🧑‍⚖️ Legal Chatbot
 
-A simple AI chatbot built using Python for answering basic legal questions.
+A simple Python-based chatbot designed to assist users with basic legal queries.  
+Built using NLTK for text preprocessing and a JSON-based intent system.
 
-## Features
-- Understands and responds to basic legal queries.
-- Uses Natural Language Processing (NLP) for understanding user input.
-- Customizable intents file.
+---
 
-## Installation
+## 📚 Features
 
-1. Clone this repository.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+- Preprocessing of user input using tokenization, lemmatization, and stopword removal.
+- Intent-based matching for understanding queries.
+- Randomized responses for natural conversation.
+- Fallback mechanism for unknown questions.
+- Easy to extend by adding new intents and responses.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3.x**
+- **NLTK** (Natural Language Toolkit)
+- **JSON** (for storing intents)
+
+---
+
+## 🧩 Project Structure
+
+
