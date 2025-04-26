@@ -1,21 +1,20 @@
-# main.py
-
 import random
 import json
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 
-# Download NLTK resources
+
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('stopwords')
 
-# Initialize tools
+
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words("english"))
 
-# Load intents
+---------- INTENTS-------------
+
 with open("intents.json", "r") as file:
     intents = json.load(file)
 
