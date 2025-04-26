@@ -1,28 +1,84 @@
-# 🧑‍⚖️ Legal Chatbot
+# 🏛️ Legal Chatbot - AI Solutions for Modern Justice
 
-A simple Python-based chatbot designed to assist users with basic legal queries.  
-Built using NLTK for text preprocessing and a JSON-based intent system.
+This project is a smart AI-powered **Legal Chatbot** designed to provide legal assistance, document generation, case research support, and access to justice in an easy and automated way. It aims to bridge the gap between people and the legal system using modern AI techniques.
+
+## 📂 Project Structure
+
+- `legal_chatbot.py` → Python code for the chatbot engine.
+- `intents.json` → Custom-built intents and response dataset.
+- `nltk_utils.py` → Preprocessing tools (tokenization, stemming).
+- `model.pth` → Trained machine learning model for intent classification.
+- `README.md` → Documentation of the project.
+
+## 🛠️ Technologies Used
+
+- Python
+- Natural Language Toolkit (NLTK)
+- PyTorch (for building and training the model)
+- JSON for intents management
+- Flask (optional for web deployment)
+
+## 🧠 Features
+
+- 📄 Legal Document Generation and Review
+- 🧑‍⚖️ Legal Consultation and Advice (basic level)
+- 📚 Legal Research Assistance (case and topic searching)
+- ⚖️ Court and Case Management Help
+- 🤝 Access to Justice & Pro Bono Services Support
+
+## 📊 Workflow
+
+1. User inputs a question or query.
+2. The chatbot preprocesses the input (tokenization + stemming).
+3. The trained model predicts the intent.
+4. A response is selected based on the intent detected.
+5. Chatbot replies to the user.
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+https://github.com/Ayu-shhh17/legal-chatbot.git
+
+2. Install the required packages:
+
+pip install nltk
+            torch
+            flask
+
+3. Run the chatbot:
+
+legal_chatbot.py
+
+
+(If using Flask for web hosting, run the `app.py` separately.)
+
+## 🔥 Example Intents
+
+- "Can you help me draft a rental agreement?"
+- "How can I file for divorce?"
+- "Show me case laws about intellectual property."
+- "How do I apply for legal aid?"
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 📚 Features
+### ✨ Future Improvements
 
-- Preprocessing of user input using tokenization, lemmatization, and stopword removal.
-- Intent-based matching for understanding queries.
-- Randomized responses for natural conversation.
-- Fallback mechanism for unknown questions.
-- Easy to extend by adding new intents and responses.
-
----
-
-## 🛠️ Tech Stack
-
-- **Python 3.x**
-- **NLTK** (Natural Language Toolkit)
-- **JSON** (for storing intents)
+- Integrate with live legal databases.
+- Add multilingual support.
+- Enhance natural language understanding with transformers (BERT/LLMs).
+- Build a complete web or mobile app frontend.
 
 ---
 
-## 🧩 Project Structure
+### 👨‍💻 Author
+
+- [Ayush George](https://github.com/Ayu-shhh17)
+
+
 
 
