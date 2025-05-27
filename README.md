@@ -55,10 +55,10 @@ legal_chatbot.py
 
 ## 🔥 Example Intents
 
-- "Can you help me draft a rental agreement?"
-- "How can I file for divorce?"
-- "Show me case laws about intellectual property."
-- "How do I apply for legal aid?"
+- "What is intellectual property law?"
+- "Tell me about family law"
+- "What are my tenant rights?"
+- "What is the procedure for filing a case?"
 
 ## 📜 License
 
